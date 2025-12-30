@@ -1,0 +1,337 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+main{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(248, 71, 154);
+}
+nav{
+    height: 10%;
+    width: 100%;
+    background-color: #fff;
+    opacity: 0.8;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+}
+#icon img{
+    height:40px;
+    width: 40px;
+    background-color: rgb(255, 0, 191);
+    padding: 10px;
+    border-radius: 10%;
+    display: flex;
+    align-items:center;
+    margin-top: 10px;
+    margin-left: 30px;
+    color: #fff;
+}
+.header{
+    font-size: 12px;
+    position:absolute;
+    color: rgb(238, 4, 140);
+    transform: translate(80px,-35px);
+}
+#menu{
+    height: 50px;
+    width: 30px;
+    position: relative;
+    left: 90%;
+    top: 18px;
+}
+#menu:hover{
+    opacity: 0.5;
+}
+#fakeheader{
+    height: 10vh;
+    width: 100vw;
+    background-color: rgb(248, 71, 154);
+}
+.page1{
+    height: 80%;
+    width: 100%;
+    display: flex;
+}
+#writtenpart{
+    height: 100vh;
+    width: 50vw;
+    margin: 10px;
+    margin-top: 50px;
+    margin-left: 20px;
+    color: #fff;
+}
+#writtenpart h1{
+    font-size: 50px;
+}
+#writtenpart h5{
+    font-size: 20px;
+}
+#writtenpart #getstarted{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    color: rgb(248, 71, 154);
+    border: 3px solid white;
+    font-weight: bold;
+}
+#getstarted:hover{
+    opacity: 0.8;
+}
+#writtenpart #makeapayment{
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #fff;
+    background-color: transparent;
+    opacity: 2;
+    border:solid white;
+    margin-left: 5px;
+}
+#makeapayment:hover{
+    opacity: 0.5;
+    color: pink;
+}
+#imagepart{   
+    margin-top: 20px;
+    height: 100%;
+    width: 50%;
+    background-color: rgb(248, 71, 154);
+} 
+#imagepart img{
+    position: absolute;
+    margin-top: 20px;
+    height: 350px; 
+    z-index: 0;
+}
+#bottomline{
+    width: 50%;
+    height: 10%;
+    position: absolute;
+    transform: translate(0,510px);
+    display: flex;
+    justify-content: space-around;
+}
+.secure{
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 30%;
+    background-color: #fff;
+    padding: 10px;
+    color: rgb(248, 71, 154);
+    border-radius: 10%;
+}
+.secure:hover{
+    opacity: 0.8;
+}
+.instant{
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 30%;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10%;
+    color: rgb(248, 71, 154);
+}
+.instant:hover{
+    opacity: 0.8;
+}
+.safe{
+    font-weight: bolder;
+    color: rgb(248, 71, 154);
+    align-items: center;
+    display: flex;
+    height: 50px;
+    width: 30%;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10%;
+}
+.safe:hover{
+    opacity: 0.8;
+}
+#fakeline{
+    height: 50px;
+    width: 100vw;
+    background-color: rgb(248, 71, 154);
+}
+.page2{
+    height: 90vh;
+    width: 100vw;
+}
+#write{
+    height: 30%;
+    width: 100%;
+    background-color: white;
+    align-content: center;
+    text-align: center;
+}
+#write h5{
+    margin-top: 20px;
+    font-size: large;
+}
+.cards{
+    height: 65%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#cardpayments{
+    height: 350px;
+    width: 400px;
+    border-radius: 10%;
+    background-color: rgb(245, 242, 242);
+}
+#cardpayments:hover{
+    opacity: 0.8;
+}
+#cardpayments .iconn img{
+    padding: 20px;
+    background-color: rgb(248, 71, 154);
+    height: 80px;
+    border-radius: 10%;
+    margin: 40px;
+}
+#writee{
+    margin: 40px;
+}
+#writee p{
+    margin-top: 20px;
+    color: gray;
+    font-weight: bolder;
+}
+#upipayments{
+    height: 350px;
+    width: 400px;
+    border-radius: 10%;
+    background-color: rgb(245, 242, 242);
+}
+#upipayments:hover{
+    opacity: 0.8;
+}
+#upipayments .iconnn img{
+    padding: 20px;
+    background-color: rgb(248, 71, 154);
+    height: 80px;
+    margin: 40px;
+    border-radius: 10%;
+}
+#writeee{
+    margin: 40px;
+}
+#writeee p{
+    margin-top: 20px;
+    color: gray;
+    font-weight: bolder;
+}
+#netbanking{
+    height: 350px;
+    width: 400px;
+    border-radius: 10%;
+    background-color: rgb(245, 242, 242);
+}
+#netbanking:hover{
+    opacity: 0.8;
+}
+#netbanking .icconnn img{
+    padding: 20px;
+    background-color: rgb(248, 71, 154);
+    height: 80px;
+    margin: 40px;
+    border-radius: 10%;
+}
+#writteee{
+    margin: 40px;
+}
+#writteee p{
+    margin-top: 20px;
+    color: gray;
+    font-weight: bolder;
+}
+#payment{
+    height: 100%;
+    width: 100vw;
+    
+}
+.page3{
+    height: 90%;
+    width: 100vw;
+    background-color: #fff;
+}
+.page4{
+    height: 90%;
+    width: 100vw;
+    background-color: rgb(245, 242, 242);
+    display: flex;
+}
+.partision{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(245, 242, 242);
+    align-content: center;
+    text-align: center;
+}
+.partision2{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(245, 242, 242);
+    padding: 50px;
+    font-size: xx-large;
+    font-weight: 200px;
+}
+
+.page5{
+    height: 90%;
+    width: 100vw;
+    background-color: #fff;
+}
+#footer1{
+    height: 70%;
+    width: 100%;
+    color: #fff;
+    background-color: rgb(248, 71, 154);
+    align-content: center;
+    text-align: center;
+    font-size: x-large;
+}
+#footpart2{
+    justify-content: space-evenly;
+}
+#createfreeaccount{
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    color: rgb(240, 30, 128);
+    font-weight: bolder;
+}
+#createfreeaccount:hover{
+    opacity: 0.5;
+}
+#tryapayment{
+    padding: 15px;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: none;
+    color: #df0997;
+    font-weight: bolder;
+}
+#tryapayment:hover{
+    opacity: 0.5;
+}
+#footer2{
+    text-align: center;
+    transform: translate(0,100px);
+    color: darkgray;
+}
